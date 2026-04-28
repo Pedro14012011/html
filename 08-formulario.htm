@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios em Html 5</title>
+</head>
+<body>
+    <h1>Formularios em Html 5</h1>
+    <h3>Cadastro De Novo Usuario</h3>
+    <form action="/processa-dados" method="post">
+        <label for="nome">Nome Completo:</label>
+        <br>
+            <input 
+                type="text" 
+                id="nome" 
+                name="nome"
+                placeholder="Digite Seu Nome"
+                required
+            >
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+            <input 
+                type="email"
+                name="email" 
+                id="email"
+                placeholder="Digite Seu Email"
+                required
+            >
+        <br><br>
+        <label for="senha">Senha:</label>
+        <br>
+        <input
+            type="password"
+            name="senha"
+            id="senha"
+            placeholder="digite a sua senha"
+            required
+        >
+        <br><br>
+        <label for="data-nasimento">Data de Nascimento</label> 
+        <br>
+        <input 
+            type="date" 
+            name="data-nascimento" 
+            id="data de nascimenro" 
+            required
+        >
+        <br><br>
+        <label for="genero">Gênero:</label> 
+        <br>
+        <input 
+        type="radio" 
+        name="genero" 
+        id="masculino" 
+        >
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" name="genero" id="genero">
+        <label for="Feminino">Feminino</label>
+    </form>
+</body>
+</html>
